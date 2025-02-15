@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home-style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container"></div>
+                <div class="logo">
+                    <img src="../assets/image/brgy logo.png" alt="Barangay Ligaya"> Barangay Ligaya
+                </div>
+            </div>
+            <div class="nav-links-container">
+                <nav>
+                    <ul class="nav-links">
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li class="dropdown"> <a href="#">Service ▾</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="../html/contactus.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login-btn-container">
+                <button class="login-btn" onclick="window.location.href='../html/loginpage.html'">Log in</button>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="home-section">
+        <div class="hero-content">
+            <h1>Empowering Community, Building a Better Future.</h1>
+            <p>Welcome to Barangay Ligaya, your go-to social organization for community forum, announcements, and access to barangay services. Join us and be a part of building a stronger and more connected community in General Santos City.</p>
+            <button class="contact-btn">Contact Us</button>
+        </div>
+        <div class="home-image-container">
+            <div class="home-image">
+                <img src="../assets/image/bkC9s.jpg" alt="Illustration">
+            </div>
+        </div>
+    </div>
+
+    <section class="announcements">
+        <h2>Announcements</h2>
+        
+        <div class="slider">
+            <button class="nav-btn prev" onclick="prevSlide()">&#10094;</button>
+            
+            <div class="slider-container">
+                <div class="card">
+                    <img src="../assets/image/bkC9s.jpg" alt="Announcement 1">
+                    <p>Announcement or News Details 1.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="card">
+                    <img src="../assets/image/bkC9s.jpg" alt="Announcement 2">
+                    <p>Announcement or News Details 2.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="card">
+                    <img src="../assets/image/bkC9s.jpg" alt="Announcement 3">
+                    <p>Announcement or News Details 3.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="card">
+                    <img src="../assets/image/bkC9s.jpg" alt="Announcement 4">
+                    <p>Announcement or News Details 4.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="card">
+                    <img src="../assets/image/bkC9s.jpg" alt="Announcement 5">
+                    <p>Announcement or News Details 5.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+
+            <button class="nav-btn next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+
+<script src="../js/slider.js"></script>
+</body>
+</html>
