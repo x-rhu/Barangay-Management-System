@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Ligaya Management System</title>
+    <link rel="stylesheet" href="../css/resident-info-style.css">
+    
+</head>
+<body>
+    <nav>
+        <p class="page-name">Resident Information</p>
+    </nav>
+
+    <aside>
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                <img src="../assets/image/brgy logo.png" alt="Log out"> 
+                </div>
+                <p>Barangay Ligaya <br> Management System</p>
+            </div>
+            <div class="sidebar-main">
+                <div class = "sidebar-contents">
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li class="dropdown">
+                            <a href="#">Manage Resident ▼</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Resident Information</a></li>
+                                <li><a href="#">Household</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Announcement</a></li>
+                        <li class="dropdown">
+                            <a href="#">Resident Affairs ▼</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Document Request</a></li>
+                                <li><a href="#">Incident/Blotter Report</a></li>
+                                <li><a href="#">Suggestion Box</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#">Resident Participation Hub</a></li>
+                        <li><a href="#">User & Role Management</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class= "sidebar-footer"></div>
+                <div class="logout-container">
+                    <div class="logout">
+                        <img src="../assets/image/logout.png" onclick="window.location.href='../html/homepage.html'" alt="Log out"> 
+                        <button class="logout" onclick="window.location.href='../html/homepage.html'">Log out</button>
+                    </div>
+            </div>
+        </div>
+    </aside>
+    
+    <main>
+        <div class="content">
+            <div class = "action-container">
+                <div class="actions">
+                    <button class="add-btn">Add Resident</button>
+                    <button class="import-btn">Import from Excel</button>
+                    
+                </div>
+                <div class = "search">
+                    <input type="text" id="search" placeholder="Search...">
+                    
+                    <select id="filterBy">
+                        <option value="name">Name</option>
+                        <option value="gender">Gender</option>
+                        <option value="address">Address</option>
+                    </select>
+                    
+                </div>
+            </div>
+    
+            <div class="resident-infos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Address</th>
+                            <th>Mobile No.</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="residentTable">
+                        <!-- Rows -->
+                        <tr>
+                            <td>r1 FirstName MI LastName</td>
+                            <td>Female</td>
+                            <td>123 Rizal St., Purok 2, Barangay Ligaya</td>
+                            <td>09123456789</td>
+                            <td>Active</td>
+                            <td>
+                                <button class="view">View</button>
+                                <button class="edit">Edit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>r2 FirstName MI LastName</td>
+                            <td>Male</td>
+                            <td>123 Rizal St., Purok 2, Barangay Ligaya</td>
+                            <td>09123456789</td>
+                            <td>Active</td>
+                            <td>
+                                <button class="view">View</button>
+                                <button class="edit">Edit</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class = page-container>
+                <div class="page">
+                    <a href="#">Previous</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">Next</a>
+                </div>
+            </div>
+    
+        </div>
+    </main>
+</body>
+</html>
