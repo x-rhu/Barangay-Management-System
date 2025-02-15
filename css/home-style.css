@@ -86,17 +86,17 @@ header {
     padding: 50px;
 }
 
-.hero-content {
+.home-content {
     max-width: 50%;
 }
 
-.hero-content h1 {
+.home-content h1 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.hero-content p {
+.home-content p {
     font-size: 16px;
     color: #333;
     margin-bottom: 20px;
