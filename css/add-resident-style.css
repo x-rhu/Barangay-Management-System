@@ -82,11 +82,24 @@ button:hover {
 .close-btn:hover {
     background-color: #c82333;
 }
+
 .personalInfo-data{
     display: flex;
     flex-wrap: wrap;
 }
-.row1-data{
+.addressInfo-data{
     display: flex;
+    flex-wrap: wrap;
 }
-
+.contactInfo-data{
+    display: flex;
+    flex-wrap: wrap;
+}
+.householdInfo-data{
+    display: flex;
+    flex-wrap: wrap;
+}
+.emergencyInfo-data{
+    display: flex;
+    flex-wrap: wrap;
+}
