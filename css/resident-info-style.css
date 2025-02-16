@@ -92,9 +92,12 @@ main{
     display: flex;
     justify-content: center;
 }
-.logout-container{
+.logout-container {
     display: flex;
     padding: 10px;
+    position: absolute;
+    bottom: 0;
+    background: #2c3e50;
 }
 
 .logout {
@@ -135,11 +138,6 @@ main{
     padding: 15px;
     font-size: 20px;
 }
-.actions {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
 
 .add-btn, .import-btn {
     background: #2980b9;
@@ -171,11 +169,16 @@ th {
 }
 
 .view {
+    width: 38.65px;
     background: green;
     color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .edit {
+    width: 38.65px;
     background: #2980b9;
     color: white;
     border: none;
@@ -198,5 +201,25 @@ th {
 .action-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
+    padding: 10px;
+}
+.search-container{
+    display: flex;
+    gap: 10px;
+    align-items:end;
+}
+.actions-content {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items:end;
+}
+.filterBy-container{
+    display: flex;
+    align-items:end;
+}
+.filterBy-lists select{
+    cursor: pointer;
 }

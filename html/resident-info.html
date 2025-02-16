@@ -59,19 +59,31 @@
     <main>
         <div class="content">
             <div class = "action-container">
-                <div class="actions">
-                    <button class="add-btn">Add Resident</button>
-                    <button class="import-btn">Import from Excel</button>
-                    
+                <div class="actions-content">
+                    <div class="add-btn-container">
+                        <button class="add-btn">Add Resident</button>
+
+                    </div>
+                    <div class="import-btn-container">
+                        <button class="import-btn">Import from Excel</button>
+                    </div>
                 </div>
-                <div class = "search">
-                    <input type="text" id="search" placeholder="Search...">
-                    
-                    <select id="filterBy">
-                        <option value="name">Name</option>
-                        <option value="gender">Gender</option>
-                        <option value="address">Address</option>
-                    </select>
+                <div class = "search-container">
+                    <div class="filterBy-container">
+                        <div class="filterBy-contents">
+                            <p>Filter by:</p>
+                            <div class="filterBy-lists">
+                                <select id="filterBy">
+                                    <option value="name">Name</option>
+                                    <option value="gender">Gender</option>
+                                    <option value="address">Address</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searchbar-container">
+                        <input type="text" id="search" placeholder="Search...">
+                    </div>
                     
                 </div>
             </div>
@@ -121,8 +133,6 @@
                     <a href="#">1</a>
                     <a href="#">2</a>
                     <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
                     <a href="#">Next</a>
                 </div>
             </div>
