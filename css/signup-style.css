@@ -74,7 +74,7 @@ p {
 }
 
 a {
-    color: white;
+    color: #2ECC71;
     font-weight: bold;
     text-decoration: none;
 }
@@ -83,7 +83,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 480px) {
     .signup-container {
         padding: 20px;
