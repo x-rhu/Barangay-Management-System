@@ -30,13 +30,13 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
-.signup-container{
+.login-container{
     text-align: center;
 }
-.signup-text {
+.login-text {
     color: white;
     margin-bottom: 20px;
-    margin-top: 35px;
+    margin-top: 5px;
     text-align: center;
 }
 .signup-text a {
